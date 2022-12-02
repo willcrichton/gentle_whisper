@@ -16,4 +16,7 @@ if __name__ == "__main__":
           license='MIT',
           install_requires=REQUIREMENTS,
           packages=['gentle_whisper'],
+          entry_points={
+              'console_scripts': ['gentle-whisper = gentle_whisper:main']
+          },
           zip_safe=False)
