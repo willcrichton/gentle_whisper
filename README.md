@@ -42,9 +42,10 @@ If you intend to transcribe many videos, you should use the `Transcriber` class 
 
 ```python
 from gentle_whisper import Transcriber
+
 transcriber = Transcriber()
 transcriber.transcribe("my-audio.mp3")
-transcribe.transcribe("my-video.mp4")
+transcriber.transcribe("my-video.mp4")
 # etc.
 ```
 
