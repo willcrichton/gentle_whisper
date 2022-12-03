@@ -10,7 +10,7 @@ Before using `gentle_whisper`, you must have installed:
 * [Docker](https://www.docker.com/) (for Gentle)
 
 Note that as of 12/02/2022, the Gentle Docker image does NOT work on an M1 Macbook Pro with macOS. (I don't know why.) 
-I have only verified that this library works on Ubuntu 16.04, and it should probably work on any Linux machine at least.
+I have only verified that this library works on Ubuntu 16.04 with x86 architecture CPU, and I'm guessing it will work on any x86 system.
 
 ### From source
 
