@@ -9,12 +9,6 @@ Before using `gentle_whisper`, you must have installed:
 * [ffmpeg](https://github.com/FFmpeg/FFmpeg) (for Whisper)
 * [Docker](https://www.docker.com/) (for Gentle)
 
-### From pypi
-
-```
-pip install gentle_whisper
-```
-
 ### From source
 
 ```
@@ -22,6 +16,11 @@ git clone https://github.com/willcrichton/gentle_whisper
 cd gentle_whisper
 pip install -e .
 ```
+
+### From PyPI
+
+Apparently PyPI doesn't allow packages to have "direct" dependencies on Github repositories. The Whisper library is not yet published to PyPI, so for now
+this library will not be published to PyPI. You have to install it from source.
 
 ## Usage
 
