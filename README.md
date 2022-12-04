@@ -1,7 +1,7 @@
 # gentle_whisper: automatic transcription + fine-grained time-alignment
 
 This repository provides a Python library that combines the [Whisper](https://github.com/openai/whisper) transcription model with the
-[Gentle](https://github.com/lowerquality/gentle/) forced-aligner to produce automatic transcriptions of audio with fine-granined time alignment.
+[Gentle](https://github.com/lowerquality/gentle/) forced-aligner to produce automatic transcriptions of audio with fine-grained time alignment.
 
 ## Installation
 
