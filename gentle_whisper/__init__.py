@@ -53,6 +53,9 @@ class Transcriber:
 
         segments = IntervalTree()
         for entry in aligned:
+            if entry["case"] != "success":
+                continue
+
             word = entry["word"]
             word_time_start = entry["start"]
             word_time_end = entry["end"]
